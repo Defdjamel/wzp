@@ -8,20 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		1A26DB43223A9E1C003E4A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB42223A9E1C003E4A1A /* AppDelegate.swift */; };
-		1A26DB45223A9E1C003E4A1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB44223A9E1C003E4A1A /* ViewController.swift */; };
+		1A26DB45223A9E1C003E4A1A /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB44223A9E1C003E4A1A /* ListViewController.swift */; };
 		1A26DB48223A9E1C003E4A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A26DB46223A9E1C003E4A1A /* Main.storyboard */; };
 		1A26DB4A223A9E1E003E4A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A26DB49223A9E1E003E4A1A /* Assets.xcassets */; };
 		1A26DB4D223A9E1E003E4A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A26DB4B223A9E1E003E4A1A /* LaunchScreen.storyboard */; };
+		1A26DB5C223AA213003E4A1A /* IconTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB5A223AA212003E4A1A /* IconTableViewCell.swift */; };
+		1A26DB5D223AA213003E4A1A /* IconTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A26DB5B223AA212003E4A1A /* IconTableViewCell.xib */; };
+		1A26DB5F223AA3B0003E4A1A /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB5E223AA3B0003E4A1A /* Icon.swift */; };
+		1A26DB61223AAADA003E4A1A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB60223AAADA003E4A1A /* NetworkManager.swift */; };
+		1A26DB64223AAD6A003E4A1A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB63223AAD6A003E4A1A /* Network.swift */; };
+		1A26DB66223AB434003E4A1A /* IconsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB65223AB434003E4A1A /* IconsManager.swift */; };
+		1A26DB6A223ACCD5003E4A1A /* UIView+InstanceNib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB69223ACCD5003E4A1A /* UIView+InstanceNib.swift */; };
+		1A26DB6C223ACD24003E4A1A /* NSObject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB6B223ACD24003E4A1A /* NSObject+Extension.swift */; };
+		1A26DB73223AD168003E4A1A /* SearchBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A26DB72223AD168003E4A1A /* SearchBarView.xib */; };
+		1A26DB75223AD1C2003E4A1A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A26DB74223AD1C2003E4A1A /* SearchBarView.swift */; };
+		8EDC3E5128C31E64695EB0F5 /* Pods_wzp_challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE38644F70B49BEF9E506B33 /* Pods_wzp_challenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A26DB3F223A9E1C003E4A1A /* wzp_challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wzp_challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A26DB42223A9E1C003E4A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A26DB44223A9E1C003E4A1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A26DB44223A9E1C003E4A1A /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		1A26DB47223A9E1C003E4A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A26DB49223A9E1E003E4A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A26DB4C223A9E1E003E4A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A26DB4E223A9E1E003E4A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A26DB5A223AA212003E4A1A /* IconTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTableViewCell.swift; sourceTree = "<group>"; };
+		1A26DB5B223AA212003E4A1A /* IconTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IconTableViewCell.xib; sourceTree = "<group>"; };
+		1A26DB5E223AA3B0003E4A1A /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		1A26DB60223AAADA003E4A1A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1A26DB63223AAD6A003E4A1A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1A26DB65223AB434003E4A1A /* IconsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsManager.swift; sourceTree = "<group>"; };
+		1A26DB69223ACCD5003E4A1A /* UIView+InstanceNib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+InstanceNib.swift"; sourceTree = "<group>"; };
+		1A26DB6B223ACD24003E4A1A /* NSObject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extension.swift"; sourceTree = "<group>"; };
+		1A26DB72223AD168003E4A1A /* SearchBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchBarView.xib; sourceTree = "<group>"; };
+		1A26DB74223AD1C2003E4A1A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		661A835AE5D4CA6959DC41DD /* Pods-wzp_challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wzp_challenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-wzp_challenge/Pods-wzp_challenge.release.xcconfig"; sourceTree = "<group>"; };
+		AE38644F70B49BEF9E506B33 /* Pods_wzp_challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wzp_challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDCB80D60D8B52CD04AEC07 /* Pods-wzp_challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wzp_challenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wzp_challenge/Pods-wzp_challenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EDC3E5128C31E64695EB0F5 /* Pods_wzp_challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10B62F9676E099187D4E15B7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE38644F70B49BEF9E506B33 /* Pods_wzp_challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1A26DB36223A9E1C003E4A1A = {
 			isa = PBXGroup;
 			children = (
 				1A26DB41223A9E1C003E4A1A /* wzp_challenge */,
 				1A26DB40223A9E1C003E4A1A /* Products */,
+				FE8633E7E4B87CF890BD4FB3 /* Pods */,
+				10B62F9676E099187D4E15B7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +90,104 @@
 			isa = PBXGroup;
 			children = (
 				1A26DB42223A9E1C003E4A1A /* AppDelegate.swift */,
-				1A26DB44223A9E1C003E4A1A /* ViewController.swift */,
-				1A26DB46223A9E1C003E4A1A /* Main.storyboard */,
+				1A26DB68223ACC8F003E4A1A /* Extensions */,
+				1A26DB62223AAD4C003E4A1A /* Defines */,
+				1A26DB58223AA151003E4A1A /* Storyboards */,
+				1A26DB57223AA119003E4A1A /* Network */,
+				1A26DB56223AA110003E4A1A /* Models */,
+				1A26DB54223AA100003E4A1A /* Controllers */,
+				1A26DB59223AA1E3003E4A1A /* Cells */,
 				1A26DB49223A9E1E003E4A1A /* Assets.xcassets */,
-				1A26DB4B223A9E1E003E4A1A /* LaunchScreen.storyboard */,
+				1A26DB6D223ACD6A003E4A1A /* Views */,
 				1A26DB4E223A9E1E003E4A1A /* Info.plist */,
 			);
 			path = wzp_challenge;
+			sourceTree = "<group>";
+		};
+		1A26DB54223AA100003E4A1A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB44223A9E1C003E4A1A /* ListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1A26DB56223AA110003E4A1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB67223AB449003E4A1A /* Managers */,
+				1A26DB5E223AA3B0003E4A1A /* Icon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1A26DB57223AA119003E4A1A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB60223AAADA003E4A1A /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		1A26DB58223AA151003E4A1A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB4B223A9E1E003E4A1A /* LaunchScreen.storyboard */,
+				1A26DB46223A9E1C003E4A1A /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1A26DB59223AA1E3003E4A1A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB5A223AA212003E4A1A /* IconTableViewCell.swift */,
+				1A26DB5B223AA212003E4A1A /* IconTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		1A26DB62223AAD4C003E4A1A /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB63223AAD6A003E4A1A /* Network.swift */,
+			);
+			path = Defines;
+			sourceTree = "<group>";
+		};
+		1A26DB67223AB449003E4A1A /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB65223AB434003E4A1A /* IconsManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		1A26DB68223ACC8F003E4A1A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB69223ACCD5003E4A1A /* UIView+InstanceNib.swift */,
+				1A26DB6B223ACD24003E4A1A /* NSObject+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1A26DB6D223ACD6A003E4A1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1A26DB72223AD168003E4A1A /* SearchBarView.xib */,
+				1A26DB74223AD1C2003E4A1A /* SearchBarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FE8633E7E4B87CF890BD4FB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFDCB80D60D8B52CD04AEC07 /* Pods-wzp_challenge.debug.xcconfig */,
+				661A835AE5D4CA6959DC41DD /* Pods-wzp_challenge.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A26DB51223A9E1E003E4A1A /* Build configuration list for PBXNativeTarget "wzp_challenge" */;
 			buildPhases = (
+				7B76CFAB8A5A7B398A9D49C0 /* [CP] Check Pods Manifest.lock */,
 				1A26DB3B223A9E1C003E4A1A /* Sources */,
 				1A26DB3C223A9E1C003E4A1A /* Frameworks */,
 				1A26DB3D223A9E1C003E4A1A /* Resources */,
+				724FE50E26D2CBF671C0A71B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,20 +251,85 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A26DB4D223A9E1E003E4A1A /* LaunchScreen.storyboard in Resources */,
+				1A26DB73223AD168003E4A1A /* SearchBarView.xib in Resources */,
 				1A26DB4A223A9E1E003E4A1A /* Assets.xcassets in Resources */,
+				1A26DB5D223AA213003E4A1A /* IconTableViewCell.xib in Resources */,
 				1A26DB48223A9E1C003E4A1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		724FE50E26D2CBF671C0A71B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-wzp_challenge/Pods-wzp_challenge-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-wzp_challenge/Pods-wzp_challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B76CFAB8A5A7B398A9D49C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-wzp_challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1A26DB3B223A9E1C003E4A1A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A26DB45223A9E1C003E4A1A /* ViewController.swift in Sources */,
+				1A26DB75223AD1C2003E4A1A /* SearchBarView.swift in Sources */,
+				1A26DB45223A9E1C003E4A1A /* ListViewController.swift in Sources */,
 				1A26DB43223A9E1C003E4A1A /* AppDelegate.swift in Sources */,
+				1A26DB6C223ACD24003E4A1A /* NSObject+Extension.swift in Sources */,
+				1A26DB64223AAD6A003E4A1A /* Network.swift in Sources */,
+				1A26DB66223AB434003E4A1A /* IconsManager.swift in Sources */,
+				1A26DB61223AAADA003E4A1A /* NetworkManager.swift in Sources */,
+				1A26DB6A223ACCD5003E4A1A /* UIView+InstanceNib.swift in Sources */,
+				1A26DB5F223AA3B0003E4A1A /* Icon.swift in Sources */,
+				1A26DB5C223AA213003E4A1A /* IconTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +473,7 @@
 		};
 		1A26DB52223A9E1E003E4A1A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDCB80D60D8B52CD04AEC07 /* Pods-wzp_challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +492,7 @@
 		};
 		1A26DB53223A9E1E003E4A1A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 661A835AE5D4CA6959DC41DD /* Pods-wzp_challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
